@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="bottom|center_horizontal"
+        android:paddingBottom="40sp"
+        android:text="User profile"
+        android:textColor="#673AB7"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/profile_info"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="20sp"
+        android:layout_weight="5" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/signOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:onClick="onSignOut"
+            android:text="Sign Out" />
+
+        <Button
+            android:id="@+id/deleteUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:onClick="onDeleteUser"
+            android:text="Delete User" />
+    </LinearLayout>
+</LinearLayout>

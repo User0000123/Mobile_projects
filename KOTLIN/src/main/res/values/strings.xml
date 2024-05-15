@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Book store</string>
+    <string name="storeName">BookStore</string>
+    <string name="logIn">Log In</string>
+    <string name="LogIn">Log in</string>
+    <string name="SignUp">or Sign Up</string>
+</resources>
