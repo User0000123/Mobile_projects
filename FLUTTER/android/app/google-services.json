@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "372237105823",
+    "firebase_url": "https://mpproject-750b8-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "mpproject-750b8",
+    "storage_bucket": "mpproject-750b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372237105823:android:b92cf97f8454e7356700aa",
+        "android_client_info": {
+          "package_name": "com.example.library_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAz75bH_uiQtPQtSJdOGsH987xWELOfysY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
